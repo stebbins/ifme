@@ -1,0 +1,677 @@
+en:
+ app_name: 'if me'
+ app_description: 'cộng đồng sức khỏe tâm thần'
+ email: 'join.ifme@gmail.com'
+ ellipsis: " [...]"
+ created: '<strong>Tạo:</strong> %{created_at}'
+ draft: "Nháp"
+ edited: '<strong>Tạo:</strong> %{created_at} <em>(chỉnh sửa)</em>'
+ edited_updated_at: '<strong>Created:</strong> %{created_at} <em>(edited %{updated_at})</em>'
+ salutation: "Xin chào  %{name},"
+ click_here: "nhấn vào đây"
+ less: " [Ít hơn]"
+ language: 'Ngôn ngữ'
+ back_to_top: Về ại đầu trang
+
+ languages:
+   en: English
+   es: Español
+   nl: Nederlands
+   ptbr: Português
+   sv: Svenska
+   various: Various
+   vn: Tiếng Việt
+   it: Italiano
+   nb: Norsk
+
+ navigation:
+   about: 'Về'
+   blog: 'Nhật ký'
+   contribute: 'Đóng góp'
+   partners: 'Đối tác'
+   privacy: 'Chính sách bảo mật'
+   github: 'GitHub'
+   patreon: 'Patreon'
+   opencollective: 'Open Collective'
+   instagram: 'Instagram'
+   rss: 'RSS'
+   twitter: "Twitter"
+   facebook: "Facebook"
+   feedback: 'Phản hồi'
+   give_feedback: 'Đưa phản hồi'
+   medium: 'Medium'
+   press: 'Press'
+   faq: 'FAQ'
+   resources: 'Nguồn'
+
+ common:
+   name: 'Tên'
+   you: 'Bạn'
+   title: 'Tiêu đề'
+   date: 'Chung kỳ:'
+   daily_reminder: 'Email nhắc nhở hàng ngày'
+   actions:
+    submit: 'Đệ trình'
+    submit_publish: 'Xuất bản'
+    submit_draft: 'Bản nháp'
+    confirm: 'Bạn có chắc chắn?'
+    delete: 'Xóa'
+    edit: 'Chỉnh sửa'
+    edit_instance: 'Chỉnh sửa %{instance}'
+    join: 'Tham gia'
+    leave: 'Rời khỏi'
+    add: 'Thêm vào'
+    add_all: 'Thêm vào tất cả'
+    select_all: 'Lựa chọn tất cả'
+    remove: 'Gỡ bỏ'
+   form:
+     email: "Email"
+     location: "Vị trí"
+     description: 'Mô tả'
+     error_explanation: 'Vui lòng điền đầy đủ các trường được làm đậm!'
+     press_enter: 'Vui lòng nhắn ENTER để cộng thêm'
+   time_ago: "Cách đây %{date} ngày"
+   write_to_us: "viết cho chúng tôi"
+
+ comment:
+  singular: 'Bình luận'
+  plural: 'Bình luận'
+  posting: 'Đăng bình luận...'
+  allow_comments: 'Cho phép bình luận?'
+  hint: 'Chỉ có bạn và người xem có thể bình luận'
+  control: 'Quản lý ai có thể xem và bình luận'
+
+ account:
+  singular: 'Tài khoản'
+  sign_in: 'Đăng nhập'
+  sign_up: 'Đăng ký'
+  forgot_password: 'Quên mật khẩu?'
+
+ members:
+   one: '%{count} thành viên'
+   other: '%{count} thành viên'
+
+ allies:
+  add_ally: 'Công thêm thành viên'
+  cancel_ally_request: 'Hủy yêu cầu'
+  accept: 'Chấp thuận'
+  reject: 'Từ chối'
+  index:
+    title: 'Thành viên'
+    outgoing: 'Yêu cầu gửi ra bên ngoài'
+    incoming: 'Yêu cầu được gửi đến'
+    invite: 'Mời bạn bè của bạn tham gia!'
+    none: 'Hiện thời bạn không có đồng minh nào, bạn có thể tìm kiến và mời bạn bè mình tham gia!'
+    view_all_allies: 'Xem tất cả đồng minh'
+    cancel: 'Hủy'
+  form:
+    placeholder: 'Thêm một hay nhiều địa chỉ email và ngăn cách các địa chỉ email này bằng các dấu phẩy'
+
+ categories:
+  plural: 'Danh sách'
+  edit_category: "Chỉnh sửa danh sách"
+  new: "Danh sách mới"
+  form:
+   name_hint: 'Danh sách lập lại người, nơi chốn, sự vật, hoạt động và nhiều hơn nữa'
+  label:
+   one: 'Dánh sách:'
+   other: 'Dánh sách:'
+  index:
+   subtitle: 'Có rất nhiều thứ, danh sách gồm có nhiều người, nơi chốn, sự vật khác nhau.'
+   premade1_name: 'Gia đình'
+   premade1_description: 'Liên quan gia đình'
+   premade2_name: 'Bạn bè'
+   premade2_description: 'Bạn bè liên quan'
+   premade3_name: 'Công việc'
+   premade3_description: 'Công việc liên quan'
+   premade4_name: 'Thiền định'
+   premade4_description: 'Thiền định, thở sâu, và các hoạt động thư giản'
+   instructions: "Bạn chưa tạo danh sách nào cả. Nhấn %{icon} để cộng thêm!<br>Bạn có thể dùng những danh sách đã được tạo sẵn và tùy chỉnh chúng vào một thời điểm khác."
+
+ errors:
+  home_page: 'Quay lại trang chính'
+  internal_server_error:
+   header_message: 'Trang không thể hiển thị'
+  not_found:
+   header_message: 'Trang này không tồn tại'
+
+ groups:
+  singular: 'Nhóm'
+  plural: 'Nhóm'
+  form:
+    leaders: 'Nhóm trưởng'
+    only_leader: "Bạn là trưởng nhóm duy nhất, vì vậy bạn không thể rời bỏ."
+    cannot_delete: 'Xin lưu ý bạn không thể xóa bỏ nhóm.'
+    error_save: "Bạn không thể lưu nhóm này vì: "
+    error_edit_permission: 'Bạn phải là trưởng nhóm để có thể chỉnh sửa'
+  index:
+   subtitle: 'Tạo và tham gia nhóm để hỗ trợ, hướng dẫn và thảo luận.'
+   available_groups: 'Nhóm hiện hữu'
+   joined_groups: 'Tham gia nhóm'
+   leader: '(Nhóm trưởng)'
+   instructions: "Bạn chưa là thành viên của nhóm nào cả, nhưng bạn có thể nhấp vào %{icon} để tạo ra một!"
+  join_success: 'Bạn đã tham gia nhóm.'
+  leave:
+    error: 'Bạn không thể rời nhóm, bạn là nhóm trưởng.'
+    success: "Bạn đã ra khỏi nhóm %{group}"
+    remove_member_success: "Bạn đã gở bỏ %{user} ra khỏi nhóm %{group}"
+  new: 'Nhóm mới'
+  show:
+   led_by: 'Điểu khiển bởi:'
+   delete: 'Xóa nhóm'
+
+ layouts:
+  application:
+   signin: 'Kể chuyện của bạn bây giờ'
+   create_account: 'Tham gia cộng đồng bây giờ'
+   update_account: 'Hiệu đính tài khoản'
+   if: 'if'
+   me: 'me'
+  mailer:
+   html:
+    app_description: "%{app_name} là một cộng đồng khuyến khích người chia sẻ những câu chuyện của sức khỏe tinh thần với những người thân quen."
+    no_reply: "Bạn không thể hồi đáp lại email này. Nếu bạn có bất kỳ câu hỏi, mối quan tâm hay phản biện nào, hãy gửi email cho chúng tôi tại %{email}!"
+  title:
+   reset_password: Cài đặt lại mật khẩu
+
+ medications:
+  singular: 'Thuộc'
+  edit_medication: 'Chỉnh sửa thuốc'
+  refill_reminder: 'Email nhắc nhở bổ sung thuốc'
+  dosage: 'Liều dùng hàng ngày:'
+  refill: 'Bổ sung:'
+  quantity: 'Tổng số:'
+  strength: 'Sức khỏe:'
+  form:
+   strength: 'Sức khỏe'
+   strength_placeholder: 'e.g. 100'
+   total_placeholder: 'e.g. 30'
+   dosage: 'liều dùng'
+   dosage_placeholder: 'e.g. 2'
+   refill: 'bổ sung'
+   comments_hint: 'Thêm bình luận vào đây, ví dụ: trạng thái của bạn'
+   add_to_google_cal: 'Lịch nhắc nhở của Google'
+   google_cal_hint: "Chúng ta sẽ thêm vào nhắc nhở cho các vấn đề liên quan đến thuốc trong lịch Google."
+   strength_hint: 'Việc sử dụng thuốc, thường được tìm thấy bên cạnh tên'
+   total_hint: 'Tổng số viên và số thuốc'
+   dosage_hint: 'Số lượng viên và liều lượng mỗi ngày'
+   refill_hint: 'Khi nào cần cấp lại thuốc'
+   refill_reminder_hint: "Chúng tôi sẽ gửi email nhắc nhở cho bạn một tuần trước khi bạn cần bổ sung thuốc mới"
+   daily_reminder_hint: "Chúng tôi sẽ gửi nhắc nhở hàng ngày khi nào bạn cần uống thuốc"
+  new: 'Thuốc mới'
+  units:
+   display: "%{count} %{unit}"
+   mg: 'mg'
+   ml: 'ml'
+   tablets:
+    one: 'viên'
+    other: 'viên'
+  reminder_mailer:
+    subject: "Đừng quên uống %{name}!"
+    body: "Đây là nhắc nhở bạn cần phải uống thuốc %{name}!"
+  refill_mailer:
+    subject: "Thuốc mới %{name} của bạn sẽ có sớm!"
+    body: "Đây là nhắc nhở bạn cần bổ sung thuốc mới %{name} vào ngày %{refill}!"
+  index:
+   title: 'Thuốc'
+   subtitle: 'Theo dõi việc sử dụng thuốc, bao gồm liều lượng và thông tin bổ sung thuốc mới.'
+   total: 'Tổng cộng:'
+   instructions: "Bạn chưa lưu lại thông tin thuốc nào cả. Hãy nhấn %{icon} để thêm vào!<br><br>Và đây là ví dụ để lưu! Bạn có thể viết ra kinh nghiệm của bạn."
+   example_name: 'Prozac'
+   example_strength: '10 mg'
+   example_total: '40 viên'
+   example_dosage: '2 viên'
+   example_refill: '05/31/2016'
+  show:
+   comments: 'Bình luận:'
+
+ meetings:
+  edit_meeting: 'Chỉnh sửa thông tin cuộc họp'
+  form:
+   location_placeholder: 'Liên kết mạnh hoặc địa chỉ'
+   maximum_members: 'Số lượng thành viên tối đa'
+   maximum_placeholder: '0 nếu không có tối đa'
+  join_success: 'Bạn đã tham gia họp nhóm.'
+  info:
+   cancel_meeting: 'Xóa bỏ họp nhóm'
+   meeting_time: 'Thời gian'
+   members_of_group_html:
+    one: '%{count} Thành viên <strong>của</strong> nhóm %{group}'
+    other: '%{count} Thành viên <strong>của</strong> nhóm %{group}'
+  reminder_mailer:
+    subject: "Cuộc họp nhóm được gọi là \"%{meeting_name}\" sẽ diễn ra vào ngày mai tại %{time}!"
+    body: "Đây là lời nhắc thân thiện rằng cuộc họp của bạn vào ngày mai được gọi là \"%{meeting_name}\" sẽ diễn ra vào lúc %{time} tại %{location}!"
+  leave:
+    error: 'Bạn không thể bỏ qua buổi họp nhóm vì bạn là trưởng nhóm duy nhất.'
+    success: 'Bạn đã rời khỏi cuộc họp %{meeting}'
+  new: 'Cuộc họp mới'
+
+ moments:
+  singular: 'Khoản khắc'
+  plural: 'Khoản khắc'
+  quick_moment_disclaimer: 'Đây là thông tin sẽ được chia sẻ với tất cả đồng minh của bạn cùng với những góp ý của họ. Lúc nào bạn cũng có thể quay lại để chỉnh sửa.'
+  categories_and_moods: 'Danh mục và trạng thái'
+  edit_moment: 'Hiệu chỉnh khoản khắc'
+  tagged: 'Những khoản khắc đã được ghi'
+  new: 'Khoản khắc mới'
+  secret_share:
+    singular: 'Chia sẻ bí mật'
+    expires_at: 'Hết hạn lúc'
+    create: 'Tạo mới'
+    cancel: 'Hủy bỏ'
+  form:
+   why: 'Chuyện gì đã xảy ra và bạn cảm thấy thế nào?'
+   fix: 'Suy nghĩ nào mà bạn muốn có?'
+   what_happened: 'Điều gì đã xảy ra?'
+   viewers_hint: 'Những đồng minh có thể xem bình luận của bạn'
+   draft_question: 'Bạn có muốn lưu lại khoản khắc này như một bản nháp không?'
+
+  index:
+   subtitle: 'Đào sâu vào khoản khắc của bạn – sự kiện tình huống đã ảnh hưởng đến sức khỏe tinh thần của bạn.'
+   instructions: "Bạn chưa viết về bất kỳ khoảnh khắc nào được nêu ra. Nhấp% {icon} để thêm một số!<br><br>Không biết bắt đầu từ đâu? Có chuyện gì xảy ra hôm nay mà bạn muốn chia sẻ và thảo luận với người thân yêu? Nó có thể là tích cực hoặc tiêu cực! Bạn có thể không phải chia sẻ ngay - chỉ khi bạn đã sẵn sàng! Dưới đây là ví dụ về Một phút giây.
+"
+   example_name: 'hoảng sợ vì buổi phỏng vấn vào ngày mai!'
+   example_category: 'Nghề nghiệp'
+  show:
+   strategies: 'Có cách nào sẽ giúp cho bạn không?'
+
+ moods:
+  singular: 'Tâm trạng'
+  plural: 'Tâm trạng'
+  edit_mood: 'Hiệu đính tâm trạng'
+  new: 'Tâm trạng mới'
+  example_moods: 'Lo lắng, Hoang mang, Hy vọng'
+  label:
+   one: 'Âm trạng:'
+   other: 'Âm trạng:'
+  index:
+   subtitle: 'Tạo một thẻ miêu tả tâm trạng, cảm giác và cảm xúc của bạn.'
+   premade1_name: 'Chấp nhận'
+   premade1_description: 'Chấp nhận và đồng thuận cùng với những khác biệt và giới hạn'
+   premade2_name: 'Khát vọng'
+   premade2_description: 'Cảm giác tích cực về thành quả đạt được'
+   premade3_name: 'Hiếu kỳ '
+   premade3_description: 'Cảm thấy tò mò và không chắc chắn'
+   premade4_name: 'Tức giận'
+   premade4_description: 'Cảm giác không chấp nhận một sự thật nào đó, cảm giác tức giận, muốn bào thù, và hoặc ganh tỵ'
+   premade5_name: 'Thất vọng'
+   premade5_description: 'Cảm giác buồn và vô vọng – không tìm thấy giải pháp'
+   instructions: "Bạn chưa tạo bất kỳ tâm trạng tùy chỉnh nào được nêu ra. Nhấp vào% {icon} để thêm một số!<br>Bạn cũng có thể thêm các giai điệu trước và tùy chỉnh thời gian khác."
+
+ notifications:
+  plural: 'Thông báo'
+  none: 'Không có cái nào'
+  clear: 'Sạch sẽ'
+  created_by_html: "<strong>Được tạo bởi</strong>:% {name}"
+  preview: 'Xem thêm'
+  members:
+   title: 'Danh sách thành viên'
+  ally:
+   accepted: '%{name} đã chấp nhận yêu cầu của đồng minh!'
+   sent_html: '%{link_to_user} đã gửi yêu cầu của đồng minh!'
+  comment:
+   full: '%{name} đã nhận xét "%{comment}" trên %{typename}'
+   truncated: '%{name} đã nhận xét "%{comment}" [...] trên %{typename}'
+  group:
+   new_group: '%{name} đã tạo một nhóm "%{group_name}"'
+   new_group_member: '%{name} joined your group "%{group_name}"'
+   add_group_leader: '%{name} đã tham gia nhóm của bạn "%{group_name}"'
+   remove_group_leader: '%{name} không còn là người lãnh đạo của "%{group_name}"'
+  meeting:
+   new_meeting: '%{name} đã tạo một cuộc họp mới "%{meeting_name}" cho "%{group_name}"'
+   remove_meeting: '%{name} đã hủy "%{meeting_name}" cho "%{group_name}"'
+   update_meeting: '%{name} đã cập nhật "%{meeting_name}" cho "%{group_name}"'
+   join_meeting: '%{name} đã tham gia "%{meeting_name}" cho "%{group_name}'
+  mailer:
+    comment_on_moment_subject: "if me | % {user} đã nhận xét về thời điểm của bạn \"%{moment}\""
+    comment_on_strategy_subject: "if me | %{user} đã nhận xét về chiến lược của bạn \"%{strategy}\""
+    comment_on_meeting_subject: "if me | %{user} đã nhận xét về cuộc họp\"%{meeting} \"trong nhóm\"%{group}\""
+    comment_on_private_body: "<p>Đồng minh của bạn <strong>%{user}</strong> đã nhận xét riêng:</p>"
+    comment_on_body: "<p>Đồng minh của bạn <strong>%{user}</strong> đã nhận xét:</p>"
+    comment_text_cutoff: "<p><i>%{comment} [...]</i></p>"
+    comment_text: "<p><i>%{comment}</i></p>"
+    comment_link: "<p>Để đọc nó,% {link}!</p>"
+    new_group_subject: "if me | %{user} đã tạo một nhóm \"%{group}\""
+    new_group_body: "<p>%{user} đã tạo một nhóm \"%{group}\":</p><p><i>%{description}</i></p><p>Để tìm hiểu thêm và tham gia, %{link}!</p>"
+    new_group_member_subject: "if me | %{user} đã tham gia nhóm của bạn \"%{group}\""
+    add_group_leader_you_subject: "if me | Bạn trở thành người lãnh đạo của \"%{group}\""
+    add_group_leader_subject: "if me | %{user} trở thành lãnh đạo của \"%{group}\""
+    add_remove_group_leader_body: "<p>Để xem \"%{group}\", % {link}!</p>"
+    remove_group_leader_you_subject: "if me | Bạn không còn là người lãnh đạo của \"%{group}\""
+    remove_group_leader_subject: "if me | %{user} không còn là người lãnh đạo của \"%{group}\""
+    update_meeting_subject: "if me | %{user} đã cập nhật cuộc họp \"%{meeting}\" cho \"%{group}\""
+    new_meeting_subject: "if me | %{user} đã tạo một cuộc họp mới \"%{meeting}\" cho \"%{group}\""
+    meeting_body: "<p>%{subject}</p><p><i>%{description}</i></p><p><strong>Vị trí:</strong> %{location}</p><p><strong>Ngày:</strong> %{date}</p><p><strong>Thời gian:</strong> %{time}</p>"
+    new_meeting_link: "<p>Để tìm hiểu thêm và tham dự, %{link}!</p>"
+    update_meeting_link: "<p>Để tìm hiểu thêm, %{link}!</p>"
+    remove_meeting_subject: "if me | %{user} đã hủy \"% {meeting}\" cho \"%{group}\""
+    join_meeting_subject: "if me | %{user} đã tham gia \"% {meeting}\" cho \"%{group}\""
+    join_meeting_body: "<p>Để xem \"%{meeting}\", %{link}!</p>"
+
+ omniauth:
+  google: 'Google'
+  access_denied: 'Truy nhập từ chối'
+
+ pages:
+  about:
+    send_us: 'chúng tôi'
+    email_us: 'Hãy email %{email_link}!'
+    main_message_one: "%{app_name} là một cộng đồng của sức khỏe tâm thần trong đó khuyến khích người dùng chia sẻ những câu chuyện cá nhân của họ với những đồng minh thân tín."
+    message_text_one: "Những đồng minh hay bạn bè thân tín là những người có liên hệ trong cuộc sống hàng ngày bao gốm bạn bè, thành viên gia đình, đồng nghiệp, giáo viên và những nhân viên chăm sóc sức khỏe tâm thần."
+    main_message_two: "Giải quyết cá vấn đề về sức khỏe tâm thần làm nên con người chúng ta. Nhưng nhiều người trong chúng ta đắn đo khi mở lòng để chia sẻ những điều đó."
+    message_text_two: "Không phải ai cũng là nhà tư vấn hay trị liệu. Những người có liên hệ với cuộc sống chúng ta mỗi ngày chinh la những người làm nên cảm xúc và cách cư xử của chúng ta. Mời gọi họ tham gia vào các phương pháp trị liệu sức khỏe tâm thần sẽ là chìa khóa giúp ta hồi phục.<p><div class=\"subtitle block\">\"Không phải chỉ là trong đầu của bạn không thôi, mà là tất cả những gì xung quanh bạn. Chúng ta cùng nhau chửa lành cho nhau.\"</div><div class=\"spacer\"></div><div class=\"purple_yay\">&hearts;</div></p><p class=\"no_margin_bottom\">Sức khỏe tâm thần là những kinh nghiệm của từng các nhân và riêng việt. không có hai cái não giống nhau, giải quyết cá vấn đề đòi hỏi từ tất cả mọi người và đó là lý do tại sao dự án có mã nguồn mở.</p>"
+    main_message_three: "Mong muốn ủng hộ chúng tôi?"
+    message_text_three: "Ứng dụng của chúng tôi là một dự án mã nguồn mở <u>hoàn toàn </u>. Nó được xây dựng và duy trì bởi các tình nguyện viên có nhiều nền tảng và kỹ năng khác nhau.</p><p>Vào năm 2016, chúng tôi đã nhận được khoản trợ cấp cộng đồng từ %{linebreak_link}. Năm 2017, chúng tôi nhận được tài trợ từ %{fund_club_link}.</p>Bạn có thể hỗ trợ chúng tôi bằng cách quyên góp cho %{patreon_link} của chúng tôi.</p>"
+    linebreak: 'Linebreak'
+    fund_club: 'Fund Club'
+  blog:
+    description: "Nếu bạn quan tâm đến việc viết thư cho chúng tôi, hãy cho chúng tôi biết về %{email}! Chúng tôi hoan nghênh quá trình gửi nặc danh."
+  contribute:
+    main_message_one: "if me được xây dựng và duy trì bởi nhiều tình nguyện viên khác nhau với kiến thức và kinh nghiệm khác nhau."
+    message_text_one: "Chúng tôi tìm kiếm những ý tưởng từ tất cả mọi người, bao gồm: <strong>các nhà tư vấn tâm lý</strong>, <strong>chuyên gia sức khỏe</strong>, <strong>nhà phát triển phần mềm</strong>, <strong>biên dịch</strong>, and <strong>những nhà thiết kế chuyên nghiệp. </strong>!<p class=\"no_margin_bottom\">Vui lòng %{email_link} và chúng tôi sẽ kết nối với bạn! Bạn sẽ được mời tham gia trang %{slack_link}, công cụ truyền thông chính của chúng tôi. Hãy chắc chắn kiểm tra mã của chúng tôi trên %{github_link}!</p>"
+    more_contributors: 'Những nhà đóng góp khác!'
+    thanks: 'Một lời cảm ơn nồng nhiệt đến'
+    slack: 'Slack'
+  faq:
+    title: 'Những câu hỏi thường được hỏi'
+    data_access_question: 'Ai truy nhập vào dữ liệu của chúng tôi?'
+    data_access_answer: 'Dữ liệu sẽ không bị cung cấp hay xâm nhập bởi một bên thứ ba nào khác. Xóa bỏ tài khoản của bạn sẽ có nghĩa là xóa bỏ luôn những dữ liệu trong tài khoản đó.<br><br>Xóa bỏ tài khoản của bạn sẽ có nghĩa là xóa bỏ luôn những dữ liệu trong tài khoản đó.'
+    moment_question: 'Khoản khắc là gì?'
+    moment_answer: 'A <strong>Moment</strong> is an event and situation that affects your mental health. It can be positive or negative. Think of it as a journal entry or a status update.<br><br>You can tag Memories with Strategies, Categories, and Moods. You can also choose which allies can view and comment. You can also make Memories only visible to you.'
+    strategy_question: 'What is a Strategy?'
+    strategy_answer: 'A <strong>Strategy</strong> is an activity, train of thought, or form of self-care that helps you cope or focus on recovery.<br><br>You can tag Memories with Categories. You can also choose which allies can view and comment. You can also make Memories only visible to you. Shared Strategies will be visible to all allies specified, which means you can tag your Moments with their Strategies!'
+    category_question: 'What is a Category?'
+    category_answer: 'A <strong>Category</strong> is a tag that can represent the people, places, and things that are important to you.'
+    mood_question: 'What is a Mood?'
+    mood_answer: 'A <strong>Mood</strong> is a tag describing your state of mind, feelings, and emotions.'
+    group_question: 'What is a Group?'
+    group_answer: 'A <strong>Group</strong> offers support, mentorship, and discussions on mental health. You can create Groups and your allies have the option of joining. You can only join groups that are created by your allies.<br><br>As a Group leader, you can create <strong>Meetings</strong>. Meetings have a location and time. The location can be a physical place or a Google Hangout URL. Meetings also allow for comments. If you are a Group leader, you cannot leave a group unless there is another leader. Groups can only be deleted when you are the only member.'
+    medications_question: 'How do I use the Medications feature?'
+    medications_answer: 'The <strong>Medications</strong> feature allows you to log the prescription drugs you are taking. You can also log your symptoms.'
+    invite_question: 'How can I invite my loved ones to join the app?'
+    invite_answer: 'Go to the <strong>Allies</strong> page and click the "Invite your loved ones" link. You will be able to invite them via email. When your loved one accepts the invite, they will be added to your Allies list.'
+    email_notifications_question: 'How can I modify email notifications?'
+    email_notifications_answer: "Go to the <strong>Account</strong> page by hitting %{desktop_icon} (desktop) or %{mobile_icon} (mobile) in the navigation bar. You can modify your email, password, profile picture, and bio here. You can also delete your account. Once you delete your account, all your data is deleted."
+  home:
+    stories: 'Stories'
+    welcome: 'Welcome'
+    not_signed_in:
+      main_message_one: 'Better communication with loved ones leads to better mental health.'
+      message_text_one: "We need each other's support to break down stigmas."
+      message_one: 'Share your stories with loved ones and get the support you deserve'
+      message_two: 'Be you, no strings attached and with security and privacy'
+      message_three: 'Document your moods, medications, and self-care'
+      main_message_two: "Storytelling is the key to mental health education."
+      message_text_two: "Learn from the <strong>community</strong> in our %{blog}."
+      main_message_three: 'We are open source because mental health should be open.'
+      message_text_three: "We are <strong>always</strong> looking for your %{help} and %{feedback}!"
+      help: 'help'
+    signed_in_empty:
+      main_message_one: 'Hello %{name}!'
+      message_text_one: "Here's how you can start sharing your stories."
+      main_message_two: 'Tell us about yourself.'
+      cell_one: 'Customize your %{profile} - add a bio and profile picture<br>Add custom %{moods} to best describe your emotions<br>Add %{allies} - friends, family, and others who you want to share with'
+      main_message_three: 'Write your stories.'
+      cell_two: 'Create custom %{categories} to help organize your moments<br>Write about the %{moments} - the events and situations that affect your mental health'
+      main_message_four: 'Take care of yourself.'
+      cell_three: '%{strategize} your self-care plan!<br>Currently taking %{medications}? Keep track of it and create reminders!<br>Need extra support? Join or create a %{group} to open up'
+      main_message_five: 'Have any questions or concerns?'
+      message_text_three: 'Check out our %{faq} page or %{email_link}!'
+      strategize: 'Strategize'
+  partners:
+    description: 'These are the incredible organizations we are inspired by and have had the privilege of working with. We would love to work with your organization, email us at %{email}.'
+  privacy:
+    summary: 'Summary'
+    summary_description: '<p>This privacy policy is for this website and governs the privacy of its users who choose to use it.</p><p>Given the sensitive content of the website, privacy is an incredibly important concern to us. The policy sets out to outline how user data is collected, what it is used for, and how it is protected.</p>'
+    user_data: 'User Data'
+    user_data_description: '<p>Users are intended to provide us with personal excerpts from their lives (in the Moments feature) and anecdotes on medication. Data from the Moments feature is shared with whomever the user chooses to share it with. Data from the Medication feature is only visible to the user. Both data will not be used for any additional purposes and not be surrendered to external parties.</p><p>The application also contains data with regard to support groups and strategies to tackle mental health challenges. This data is only accessible to users that are given permission to view it. Data from both features may be shown publicly to showcase them to current and future users. However, user identities will be kept private.</p>'
+    cookies: 'Use of Cookies'
+    cookies_description: "<p>This website uses cookies to better the users experience while visiting the website. Where applicable this website uses a cookie control system allowing the user on their first visit to the website to allow or disallow the use of cookies on their computer / device.</p><p>Cookies are small files saved to the user's computers hard drive that track, save and store information about the user's interactions and usage of the website. This allows the website, through its server to provide the users with a tailored experience within this website.</p><p>Users are advised that if they wish to deny the use and saving of cookies from this website onto their computers hard drive they should take necessary steps within their web browsers security settings to block all cookies from this website and its external serving vendors.</p><p>This website uses tracking software to monitor visitors to better understand how they use it. This software is provided by Google Analytics which uses cookies to track visitor usage. The software will save a cookie to your computer’s hard drive in order to track and monitor your engagement and usage of the website, but will not store, save or collect personal information. You can read Google's %{google_privacy_policy} for further information.</p>"
+    social_media: 'Social Media Platforms'
+    social_media_description: '<p>Communication, engagement and actions taken through external social media platforms that this website participate on are custom to the terms and conditions as well as the privacy policies held with each social media platform respectively.</p><p>Users are advised to use social media platforms wisely and communicate / engage upon them with due care and caution in regard to their own privacy and personal details. This website will never ask for personal or sensitive information through social media platforms and encourage users wishing to discuss sensitive details to contact them through primary communication channels such as by telephone or email.</p><p>This website may use social sharing buttons which help share web content directly from web pages to the social media platform in question. Users are advised before using such social sharing buttons that they do so at their own discretion and note that the social media platform may track and save your request to share a web page respectively through your social media platform account.</p>'
+    contact: 'Contact Us'
+    contact_description: "<p>Please %{email_link} if you have any questions or concerns.</p><p class=\"no_margin_bottom\"><em>Privacy Policy adapted from %{jamie_king_media}.</em></p>"
+  resources:
+    description: "Welcome to our curated mental health resources organized by %{communities}, %{education}, %{hotlines}, and %{services}."
+    communities: Communities
+    education: Education
+    hotlines: Hotlines
+    services: Services
+    tags:
+      people_of_colour: people of colour
+      women_of_colour: women of colour
+      black_women: black women
+      domestic_violence: domestic violence
+      dating_violence: dating violence
+      cyberbullying: cyberbullying
+      therapy: therapy
+      counseling: counseling
+      youth: youth
+      lgbtqia: LGBTQIA
+      harassment: harassment
+      self_care: self-care
+      women: women
+      chatbot: chatbot
+      anonymous: anonymous
+      free: free
+      paid: paid
+      twenty_four_seven: 24/7
+      videos: videos
+      blog: blog
+      podcast: podcast
+      books: books
+      publication: publication
+      video_chat: video chat
+      texting: texting
+      open_source: open source
+      workplace: workplace
+      social_justice: social justice
+      tech_industry: tech industry
+      meditation: meditation
+      social_anxiety: social anxiety
+      trigger_warnings: trigger warnings
+      netflix: netflix
+      homeless: homeless
+      talks: talks
+      voice_chat: voice chat
+      training: training
+      directory: directory
+      self_injury: self-injury
+      treatment: treatment
+      care_planning: care planning
+      depression: depression
+      ocd: OCD
+      advice: advice
+      forum: forum
+      learning: learning
+      crisis_prevention: crisis prevention
+      safety_planning: safety planning
+      suicide_prevention: suicide prevention
+      android: android
+      ios: iOS
+      support_groups: support groups
+      mindfulness: mindfulness
+      journaling: journaling
+      mood_tracking: mood tracking
+      veterans: veterans
+      music: music
+      integrative: integrative
+      ptsd: PTSD
+      tbi: TBI
+      news: news
+      government: government
+      christian: christian
+      humor: humor
+      conference: conference
+      addiction: addiction
+      rehabilitation: rehabilitation
+      teachers: teachers
+
+ profile:
+  index:
+   title: 'Profile'
+   edit_user: 'Customize profile'
+
+ pusher:
+  not_authorized: 'Not Authorized'
+
+ search:
+  search: 'Search'
+  search_by_name: 'Search by name'
+  form:
+   search_by_location: 'Search by location'
+   search_by_email: 'Search by email'
+
+  index:
+   title: 'Search for Allies'
+   user_not_found: 'User %{email} not found'
+
+ shared:
+  footer:
+    licence_name: 'AGPL-3.0'
+    license: 'We &hearts; FOSS'
+    license_we: 'We'
+    license_foss: 'FOSS'
+    foss: 'Free and open source software'
+    license_subtitle: 'Licensed under'
+    connect: 'connect'
+  comments:
+    share_everyone: 'Share with everyone'
+    share_with: 'Share with %{name} only'
+    visible_only_between_you_and: 'Visible only between you and %{name}'
+    not_allies: '(not allies)'
+  header:
+   signout: 'Sign out'
+   home: 'Home'
+  viewers_indicator:
+   disabled_comments: 'Comments have been disabled.'
+   you_are_viewer_html:
+    one: 'You are the only viewer.'
+    other: 'You are <strong>not</strong> the only viewer.'
+   viewers_html:
+     zero: 'There are <strong>no</strong> viewers.'
+     one: '%{names} is a viewer.'
+     other: '%{names} are viewers.'
+  stats:
+    you_are_focusing: 'You are focusing the most on'
+    user_is_focusing: '%{name} is focusing the most on'
+  viewers:
+    plural: 'Viewers'
+    you: 'Only you'
+    you_link: 'Visible to only you'
+    many: 'Visible to %{viewers}'
+  character_count: 'You have %{number} characters left.'
+  meeting_info:
+    attending: 'You are attending. Change your mind?'
+    not_attending: 'You are not attending. %{join}'
+    not_attending_one_spot_left: 'You are not attending. There is one spot left to fill! %{join}'
+    not_attending_spots_left: 'You are not attending. There are %{number} spots left to fill! %{join}'
+    not_attending_no_spots_left: 'You are not attending. There is no room to join.'
+  quick_create:
+   new: 'New %{name}'
+
+ strategies:
+  singular: 'Strategy'
+  plural: 'Strategies'
+  edit_strategy: 'Edit Strategy'
+  tagged_strategies: 'Tagged Strategies'
+  new: 'New Strategy'
+  form:
+   describe: 'Describe the strategy.'
+   strategies_label: 'What strategies would help achieve these thoughts?'
+   name_hint: 'Any activity, train of thought, or form or self-care that helps you'
+   viewers_hint: 'Allies who can view your strategy and tag their own moments with it'
+   daily_reminder_hint: "We'll email you a daily reminder to perform this strategy"
+   draft_question: 'Do you want to save your strategy as draft?'
+  label:
+   one: 'Strategy:'
+   other: 'Strategies:'
+  index:
+   subtitle: 'Strategize self-care to achieve desired thoughts and attitudes towards your moments.'
+   premade1_name: 'Five Minute Meditation'
+   premade1_description: '1) <b>Find a relaxed, comfortable position.</b> You could be seated on a chair or on the floor on a cushion. Keep your back upright, but not too tight. Hands resting wherever they’re comfortable. Tongue on the roof of your mouth or wherever it’s comfortable.<br><br>2) <b>Notice and relax your body.</b> Try to notice the shape of your body, its weight. Let yourself relax and become curious about your body seated here—the sensations it experiences, the touch, the connection with the floor or the chair. Relax any areas of tightness or tension. Just breathe.<br><br>3) <b>Tune into your breath.</b> Feel the natural flow of breath—in, out. You don’t need to do anything to your breath. Not long, not short, just natural. Notice where you feel your breath in your body. It might be in your abdomen. It may be in your chest or throat or in your nostrils. See if you can feel the sensations of breath, one breath at a time. When one breath ends, the next breath begins.<br><br>4) <b>Be kind to your wandering mind.</b> Now as you do this, you might notice that your mind may start to wander. You may start thinking about other things. If this happens, it is not a problem. It’s very natural. Just notice that your mind has wandered. You can say “thinking” or “wandering” in your head softly. And then gently redirect your attention right back to the breathing.<br><br>5) <b>Stay here for five to seven minutes.</b> Notice your breath, in silence. From time to time, you’ll get lost in thought, then return to your breath.<br><br>6) <b>Check in before you check out.</b> After a few minutes, once again notice your body, your whole body, seated here. Let yourself relax even more deeply and then offer yourself some appreciation for doing this practice today.<br><br><i>Taken from http://www.mindful.org/a-five-minute-breathing-meditation/</i>'
+   instructions: "You haven't created any custom strategies yet. Click %{icon} to add some!<br>You can also add the following premade strategy and customize it another time."
+  reminder_mailer:
+    subject: "Don't forget to perform %{name}!"
+    body: "Here's a friendly reminder to perform %{name}!"
+
+ stats:
+  total_moments: 'You have written a <strong>total</strong> of <strong>%{count}</strong> moments.'
+  total_moment: 'You have written a <strong>total</strong> of <strong>%{count}</strong> moment.'
+  monthly_moments: 'This <strong>month</strong> you wrote <strong>%{count}</strong> moments.'
+  monthly_moment: 'This <strong>month</strong> you wrote <strong>%{count}</strong> moment.'
+
+ warnings:
+  no_description: "You didn't write a description!"
+  yes_description: "Writing one can help you and others better understand in detail"
+
+ mailers:
+   accepted_ally_request:
+     subject: "if me | %{ally_name} accepted your ally request!"
+     message: "<p>Congrats! You can now share Moments, Strategies, and more with %{ally_name}.</p>"
+   new_ally_request:
+     subject: "if me | %{ally_name} sent an ally request!"
+     message: "<p>Please <a href=\"%{allies_url}\">sign in</a> to accept or reject the request!</p>"
+
+ devise:
+  password: "Password"
+  new_password: "New password"
+  current_password: "Current password"
+  password_change: "Change my password"
+  remember_me: "Remember me"
+  confirmations:
+    resend_confirmation: "Resend confirmation instructions"
+  mailer:
+    confirmation:
+      link_instructions: "You can confirm your account email through the link below"
+      link_text: "Confirm my account"
+    reset_password:
+      link_instructions: "Someone has requested a link to change your password. You can do this through the link below."
+      ignore: "If you didn't request this, please ignore this email."
+      info: "Your password won't change until you access the link above and create a new one."
+    unlock:
+      info: "Your account has been locked due to an excessive number of unsuccessful sign in attempts."
+      link_instructions: "Click the link below to unlock your account"
+      link_text: "Unlock my account"
+  passwords:
+    edit:
+      confirmation: "Confirm new password"
+    new:
+      send_instructions: "Send me reset password instructions"
+
+  registrations:
+    email_notifications: "Email Notifications"
+    comment_notify_text: "Comments on moments, strategies, and meetings"
+    ally_notify_text: "New and accepted ally requests"
+    group_notify_text: "Group updates"
+    meeting_notify_text: "Meeting updates"
+    google_auth1: "If you no longer want to be authenticated with Google, please enter a new email and password."
+    google_auth2: "Since you are authenticated with Google, you do not need to enter your password.<br>If you want to change this, please enter a new email and password."
+    placeholders:
+      repeat_password: "Repeat Password"
+    edit:
+      labels:
+        profile_picture: "Profile picture"
+        remove_picture: "Remove picture"
+        password_for: "Password for <strong>if me</strong> account"
+        update: "Update"
+      placeholders:
+        optional: "Optional"
+        about: "Introduce yourself! Why are you here and what are you looking to achieve? Please note this will be seen when users search for you"
+        required: "Required"
+      delete:
+        text: "Is <strong>if me</strong> not working out for you?"
+        button: "Permanently delete my account"
+        confirm: "Are you sure? You'll lose all of your data. But you can always sign up again!"
+    new:
+      subtitle: "Start telling your stories and maintaining your health in a safe, private space"
+      label: "A few details"
+  sessions:
+    subtitle: "Welcome back, we're looking forward to you helping you tackle your day"
+  shared:
+    sign_in_google: 'Sign in with Google'
+    sign_up_google: 'Sign up with Google'
+    confirmation: "Didn't receive confirmation instructions?"
+    unlock: "Didn't receive unlock instructions?"
+  unlock:
+    resend: 'Resend unlock instructions'
