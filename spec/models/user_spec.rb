@@ -44,6 +44,40 @@
 describe User do
   let(:current_time) { Time.zone.now }
 
+  describe ".ban" do
+    let!(:user) { User.create(name: "some name", email: "test@example.com", password: "password") }
+    let!(:admin) { User.create(name: "admin name", email: "admin@example.com", password: "password", admin: true) }
+
+    it "allows admins to ban users" do
+      expect(user.banned).to eq(false)
+
+      admin.ban(user)
+
+      expect(user.banned).to eq(true)
+    end
+
+    it "does not allow users to ban others" do
+      expect(admin.banned).to eq(false)
+
+      user.ban(admin)
+
+      expect(admin.banned).to eq(false)
+    end
+  end
+
+  describe ".ban!" do
+    let!(:user) { User.create(name: "some name", email: "test@example.com", password: "password") }
+    it "bans the user" do
+      expect(user.banned).to eq(false)
+      expect(user.banned_at).to eq(nil)
+
+      user.ban!
+
+      expect(user.banned).to eq(true)
+      expect(user.banned_at).to_not eq(nil)
+    end
+  end
+
   describe ".find_for_google_oauth2" do
     let(:access_token) {
       double({
@@ -89,8 +123,8 @@ describe User do
 
   describe "#access_token" do
     let!(:user) { User.create(name: "some name",
-                              email: "some@user.com", 
-                              password: "asdfasdf", 
+                              email: "some@user.com",
+                              password: "asdfasdf",
                               token: "some token" )}
 
     context "no expiration saved" do

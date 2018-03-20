@@ -89,6 +89,15 @@ class User < ApplicationRecord
     ally_groups.order(order) - groups
   end
 
+  def ban(user)
+    admin ? user.ban! : false
+  end
+
+  def ban!
+    self.banned_at = Time.zone.now
+    self.banned = true
+  end
+
   # TODO: _signed_in_resource is unused and should be removed
   # rubocop:disable MethodLength
   def self.find_for_google_oauth2(access_token, _signed_in_resource = nil)

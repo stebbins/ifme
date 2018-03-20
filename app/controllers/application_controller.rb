@@ -85,7 +85,9 @@ class ApplicationController < ActionController::Base
                 :generate_comment, :get_stories, :moments_stats
 
   def if_not_signed_in
-    return if user_signed_in?
+    if user_signed_in? 
+      return
+    end
 
     respond_to do |format|
       format.html { redirect_to new_user_session_path }
