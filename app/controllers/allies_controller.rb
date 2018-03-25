@@ -45,6 +45,21 @@ class AlliesController < ApplicationController
     end
   end
 
+  def report
+    user_id = current_user.id
+    ally_id = params[:ally_id].to_i
+
+    report = Report.new(reporter_id: user_id, reportee_id: ally_id)
+    report.note = params[:report_note]
+    report.comment_id  = params[:comment_id]
+    report.save
+
+    respond_to do |format|
+      format.html { redirect_to :back }
+      format.json { head :no_content }
+    end
+  end
+
   private
 
   def setup_allyship(allyship, ally_id)

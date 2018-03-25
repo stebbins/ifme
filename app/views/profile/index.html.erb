@@ -26,6 +26,11 @@
       <% else %>
         <br><%= link_to t('allies.add_ally'), add_allies_path(ally_id: @profile.id), method: :post %>
       <% end %>
+      <% if Report.where(reporter_id: current_user.id, reportee_id: @profile.id).exists? %>
+        You have reported this user
+      <% else %>
+        <%= link_to 'Report user', report_allies_path(ally_id: @profile.id), method: :post %>
+      <% end %>
     <% end %>
   </div>
 </div>

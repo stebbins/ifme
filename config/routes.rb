@@ -9,6 +9,7 @@ Rails.application.routes.draw do
     collection do
       post 'add'
       post 'remove'
+      post 'report'
     end
   end
 
