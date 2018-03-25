@@ -93,9 +93,11 @@ en:
 
  allies:
   add_ally: 'Add to Allies'
+  already_reported: 'You have reported this ally'
   cancel_ally_request: 'Cancel Request'
   accept: 'Accept'
   reject: 'Reject'
+  report: 'Report Ally'
   index:
     title: 'Allies'
     outgoing: 'Outgoing Requests'
