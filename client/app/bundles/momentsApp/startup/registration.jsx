@@ -1,8 +1,7 @@
 // @flow
 import ReactOnRails from 'react-on-rails';
 
-import Chart from '../components/Chart';
-import ChartControl from '../components/ChartControl';
+import Chart, { ChartControl } from '../components/Chart';
 
 // This is how react_on_rails can see the Components in the browser.
 ReactOnRails.register({
